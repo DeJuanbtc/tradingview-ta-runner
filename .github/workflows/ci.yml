@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, work ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint with flake8
+        run: flake8 suggestions.py tests/test_suggestions.py
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Send webhook
+        if: success()
+        run: |
+          if [ -n "$WEBHOOK_URL" ]; then
+            curl -X POST -H "Content-Type: application/json" \
+                 -d '{"status":"success"}' "$WEBHOOK_URL"
+          else
+            echo "WEBHOOK_URL not set; skipping webhook"
+          fi
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
