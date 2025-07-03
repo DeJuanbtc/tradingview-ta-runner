@@ -1,0 +1,7 @@
+{"installed":{"client_id":"989846456756-49t3ckbfv4qqi7oohralhotsqeeu5oc0.apps.googleusercontent.com",
+"project_id":"trading-view-alerts-462716",
+"auth_uri":"https://accounts.google.com/o/oauth2/auth",
+"token_uri":"https://oauth2.googleapis.com/token",
+"auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+"client_secret":"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",
+"redirect_uris":["http://localhost"]}}

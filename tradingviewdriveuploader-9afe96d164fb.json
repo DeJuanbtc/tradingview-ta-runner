@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tradingviewdriveuploader",
+  "private_key_id": "9afe96d164fbb59684ace6bea9b1609aff0778ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCEZEC5lcfMzJx2\n43ZzV/e8K5NMbEVKIn/ijfCIMLKZgST7LW71Ur/qhXsaGXldBfN1KtPGnITIBZXO\nLHe9vfdBEiBdpaxEV/Ttoc34zlw9LVqC2JHU3qnhNayaU2m1NjJvx5zfkx4fVTEl\nvUNWYTLBnnzikyb9cjdIFce0jhDWBdMqu2hXI+Nz3TzoKwxW39wsS5EjaL5olYXd\nwKxOF5I/Xqz2y919raT3Fp0myh3h467JX16wDmkPq5G4HnsUPFXYJCBbhvD6m45C\nrJJpT9BSQr0LoLu1zZISc4UBESkPQRJ4SlOcXv5yBAs19EPH9wRcka2dI1djY8Gs\ntPVC+XQPAgMBAAECggEACP28AulAA/x4uymbL53aS8kT0bK1XqG1g1/gutxqd2Vf\naxWR/bmMd3NwQadYPYU8HF7ND3stbgjUZzJQQYPHaSpqJfdXRImgBIwiw70pY4Lo\ngjljZ2G7MiR7NTyT/G69Vye8fiyXdPOhXlmaW0vyRAGs+UBFe3HzJ4NJ0vfQ/zqW\nCLXGjPkW24gVtwzgJMrA/ck5bOv8Hub2KEET/h14kjTex5MOS1h7q7m84rWwBrvC\noRlb0XcdZwKOuHuT2E6WLCdS/xs6yeZhyK4Gvz8L57OM1OTn9eO0QA2YDi1Zrs9T\ndc/qQCIaTYtZcGcUQy++1LlSy5bTrF0dhtqZeMsEhQKBgQC66QlYIHOxHKhHua2o\nMAiQNyL0PhhP05opuzkdCghwsoa1RsufCXUZmiIUHgD9y8FGO60edp4iEoD6ofcH\nFBLbDXzk7j+1ls5FgykSsnFEIK7TdTCfoA157n6AkG7/2jknJtJHzoZR1a4XYNYM\nmBU7CQarelFmlbeOuOED7Ic5PQKBgQC1VDeuJFKWXavZ3NktfbUnSb6gAzCkQIqu\nGB/hSyoiYjA1oJOcYqv2JrPU3UUDfsyocbSJgvWK/viL4zSTtXrPcXuAMVxnhuWV\nkYobpbPjzCYIhoyqc7vZYkRT1i0VOtb02Tx0Xif8F1Zdmhg5ajkne+RhK1Nb0pVX\nmjL2NrJ/OwKBgQCtWKWG6woBL+/OHaG2A15dyhUL6m8H0dr/axksGnr7ckdG5nLA\ne7fz16RVfgIzX35P0dbcEuzT8s9WI1KEaRSXvimf9Gp30nZZt6wnIAG2So15pg1D\nbeAxvoPqXonjlhM9gV6ypBKk4QVFv1Sld4LxLozWCmpmNuJ3ZnWh+wLqjQKBgGpx\n7d3EZNbwVhmmk7covFc76zNzq/JAESjx8IUI4sscaMCSaxS6t8fgIGEtI35RyUJ4\nvUqcHhhiZPV5gzvSpS1xqNYwI9aCUfPjY/em5lsrVIhcs+a72eJa1VGBwSVdTSKf\nA+Yr/7z01jZMZzwNJ1AOYprIHD8i95hdZN00bsRRAoGBAIWvezheR+5MgClGs+1U\ngKPxec20dkPaV00Xf2cfCrBLHyQEKs4UTPn+WON8ymxSQBPLRxd31FNRvdNVFkVh\numoEh2Bma/WhbxM/a1yIi2IjoVtvShhQxpHVJU055nhOk35ZgpSwPymclEdV2o+Z\nYS6Ltkuv/TDp5AsZsaUQeZbL\n-----END PRIVATE KEY-----\n",
+  "client_email": "tradingviewdriveuploader@tradingviewdriveuploader.iam.gserviceaccount.com",
+  "client_id": "115246516814102188796",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tradingviewdriveuploader%40tradingviewdriveuploader.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
