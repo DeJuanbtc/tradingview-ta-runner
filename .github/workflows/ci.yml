@@ -1,4 +1,5 @@
-name: CI
+- name: Lint with flake8
+  run: flake8 .
 
 on:
   push:
