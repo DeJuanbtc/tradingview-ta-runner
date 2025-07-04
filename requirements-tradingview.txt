@@ -1,4 +1,3 @@
-rm requirements-tradingview.txt*
 echo "requests" > requirements.txt
 echo "flake8" >> requirements.txt
 echo "pytest" >> requirements.txt
