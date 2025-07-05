@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main, work ]
+    branches: [main, work]
   pull_request:
 
 jobs:
@@ -20,7 +20,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-tradingview.txt
 
-      # ⛔️ Removed flake8 entirely
+      - name: Lint with flake8
+        run: |
+          echo "Running flake8 safely on all Python files..."
+          git ls-files -z '*.py' | xargs -0 flake8 \
+            --exclude=node_modules,venv,__pycache__,.git \
+            --ignore=E501,F401,E302 \
+            --exit-zero || ec
 
       - name: Run tests
         run: pytest -q
@@ -28,7 +34,7 @@ jobs:
       - name: Send webhook
         if: success()
         run: |
-          if [ -n "$WEBHOOK_URL" ]; then
+          if [[ -n "$WEBHOOK_URL" ]]; then
             curl -X POST -H "Content-Type: application/json" \
               -d '{"status":"success"}' "$WEBHOOK_URL"
           fi
