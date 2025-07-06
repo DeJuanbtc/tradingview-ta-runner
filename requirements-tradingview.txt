@@ -2,3 +2,4 @@ requests
 flake8
 pytest
 google-auth
+google-api-python-client
