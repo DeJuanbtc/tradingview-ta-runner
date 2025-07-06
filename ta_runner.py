@@ -16,7 +16,7 @@ import json
 
 # ================= GOOGLE DRIVE SETUP ==================
 DRIVE_FOLDER_ID = "1kabJkt9I5uUitepAorXkvJvrwU5ZBVAF"
-SERVICE_ACCOUNT_FILE = "Updated_DLAB_Chart_Creds.json"
+SERVICE_ACCOUNT_FILE = "/etc/secrets/ta_runner.json"
 SCOPES = ['https://www.googleapis.com/auth/drive']
 
 credentials = service_account.Credentials.from_service_account_file(
